@@ -30,7 +30,10 @@
   <body>
     <!-- Start your project here-->
     <!--Navbar-->
-    <nav class="navbar navbar-dark red lighten-1 mb-4">
+    <nav
+      class="navbar navbar-dark red lighten-1 mb-4"
+      style="margin: 0 !important;"
+    >
       <!-- Navbar brand -->
       <a class="navbar-brand" href="#">Navbar</a>
 
@@ -70,6 +73,46 @@
       <!-- Collapsible content -->
     </nav>
     <!--/.Navbar-->
+
+    <div
+      class="jumbotron card card-image"
+      style="
+        background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);
+        margin: 0;
+      "
+    >
+      <div class="text-white text-center py-5 px-4">
+        <div>
+          <h2 class="card-title h1-responsive pt-3 mb-5 font-bold">
+            <strong>QCHacks 2020</strong>
+          </h2>
+          <img src="img/qchacks-logo.png" />
+          <a class="btn btn-outline-white btn-md"
+            ><i class="fas fa-clone left"></i> Register</a
+          >
+          <a class="btn btn-outline-white btn-md"
+            ><i class="fas fa-clone left"></i> Sign In</a
+          >
+        </div>
+        <div>Date: October 24-26</div>
+        <div>Location: Queens College, Main Cafeteria</div>
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h2 class="display-4">Event Information</h2>
+        <p class="lead">
+          Join us on Slack, Discord, something else at
+          <a style="color: blue;">link to social media</a> to stay updated!
+          <br />
+          Register on <a style="color: blue;">Devpost</a>
+          <br />
+          We follow the <a style="color: blue;">MLH code of conduct</a>. Contact
+          us as at 718-123-4567 or support@qchacks.org
+        </p>
+      </div>
+    </div>
     <!-- End your project here-->
 
     <!-- jQuery -->
@@ -81,16 +124,12 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Your custom scripts (optional) -->
+
+    <!-- for navbar -->
     <script type="text/javascript">
       $(document).ready(function () {
-        $(".first-button").on("click", function () {
-          $(".animated-icon1").toggleClass("open");
-        });
         $(".second-button").on("click", function () {
           $(".animated-icon2").toggleClass("open");
-        });
-        $(".third-button").on("click", function () {
-          $(".animated-icon3").toggleClass("open");
         });
       });
     </script>
