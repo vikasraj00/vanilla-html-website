@@ -3,6 +3,15 @@
 - Clone project
 - Click on index.html
 
+# TODO
+
+- Clicking nav links will scroll to correct section
+- Improve design
+- Authentication (User login and account access)
+- Webpage for users to make-changes/view-info to account
+- Choose picture of yourself to show in "meet the organizers section"
+- Add FAQ section
+
 # Styling Framework: Material Design For BootStrap
 
 Version: MDB FREE 4.15.0
