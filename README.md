@@ -10,7 +10,6 @@
 - Authentication (User login and account access)
 - Webpage for users to make-changes/view-info to account
 - Choose picture of yourself to show in "meet the organizers section"
-- Add FAQ section
 
 # Styling Framework: Material Design For BootStrap
 
